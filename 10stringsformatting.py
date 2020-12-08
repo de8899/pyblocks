@@ -1,11 +1,12 @@
 # play wth strings using %strings
+# 20201207 - reformatting/cleanup of text input cmds.
 
-ns = input("give me some a number from 1 to 10: ")
+ns = input("Give me some a number from 1 to 20: ")
 num1 = int("%s" % ns)
 num2 = int("%s%s" % (ns,ns))
-print("single and pair of these put together are ")
+print("Single and pair of these put together are ")
 print(str(num1) + str(num2))
-print("added, the two are: ")
+print("Added, the two are: ")
 print(num1+num2)
 
 
