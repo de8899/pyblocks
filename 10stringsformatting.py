@@ -1,5 +1,6 @@
 # play wth strings using %strings
 # 20201207 - reformatting/cleanup of text input cmds.
+# dev2 updating header
 
 ns = input("Give me some a number from 1 to 20: ")
 num1 = int("%s" % ns)
