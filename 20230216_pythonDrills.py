@@ -1,5 +1,9 @@
 # Python drills - practice the basics - use W3 schools python examples for reference. 
 
+# Time module for sleep between cmds
+import time
+sleeper = time.sleep(2)
+
 # Create a list, tuple, set, and dictionary. List is same as array.
 list1=["mary","ray","bob"]
 tuple1=("this","tupler","thing")
@@ -12,6 +16,8 @@ for i in tuple1:
     #sleep=time.sleep(1)
     #sleep
     print(i)
+
+sleeper
 
 # While loop over one of the above iterables
 n = 0
@@ -40,12 +46,15 @@ try:
     print("here's set1:")
     print(set1)
 
+    sleeper
+
     print("Now lets add to it. Type a name:")
     inputData = input()
     set1.add(inputData)
     print("now here's set1:")
     print(set1)
 
+    sleeper 
     # Remove an item from the list
     print("Now lets remove dog")
     set1.remove('dog')
